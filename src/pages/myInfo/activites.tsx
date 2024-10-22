@@ -15,7 +15,6 @@ const ExperienceForm = () => {
   const [bannerImages, setBannerImages] = useState<File[]>([]);
   const [introImages, setIntroImages] = useState<File[]>([]);
 
-  // 예약 가능한 시간대 추가
   const addAvailableTime = () => {
     setAvailableTimes([
       ...availableTimes,
